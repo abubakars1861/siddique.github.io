@@ -1,21 +1,33 @@
-# Academic Research Portfolio
+# Md Abu Bakar Siddique — Academic Research Portfolio
 
-A responsive, no-build website for Md Abu Bakar Siddique, designed for GitHub Pages.
+A responsive academic research website hosted as a **GitHub Pages project site**.
 
-## Publish on GitHub Pages
+## Live URL
 
-1. Create a GitHub repository named `YOUR_GITHUB_USERNAME.github.io`.
-2. Upload `index.html` and the `assets` folder to the repository root (not inside an extra `academic-website` folder).
-3. Under **Settings → Pages**, choose **Deploy from a branch**, branch `main`, folder `/(root)`, and save.
-4. Visit `https://YOUR_GITHUB_USERNAME.github.io` after deployment completes.
+https://abubakars1861.github.io/siddique.github.io/
 
-## Before publishing
+## Update your existing GitHub repository
 
-- Replace `YOUR_EMAIL@example.com` in `index.html` with your professional email.
-- Replace generic Google Scholar, ORCID, GitHub and LinkedIn links with your own profile URLs.
-- Verify all publication titles, authors, statuses, and DOI information.
-- To publish a CV, save it as `assets/cv.pdf`, and replace the CV request link with `<a class="btn secondary" href="assets/cv.pdf" download>Download CV ↗</a>`.
-- Add a headshot or scientific figure with permission, if desired.
-- Keep research descriptions and affiliations current; do not list ongoing manuscripts as published papers.
+Repository: https://github.com/abubakars1861/siddique.github.io
 
-This site uses plain HTML/CSS/JS and does not require Jekyll, dependencies, or a build step.
+1. Unzip this package.
+2. In your GitHub repository, replace the existing `index.html` with the new `index.html` (open the existing file, click the pencil icon, paste the new contents, and commit). Alternatively use **Add file → Upload files**, replacing files when prompted.
+3. If not already present, upload the entire `assets` folder to the repository root; the CSS and JavaScript are necessary for styling and mobile navigation.
+4. Update `README.md` if desired. Keep `assets/style.css` and `assets/script.js` unchanged if they are already there.
+5. Wait for the GitHub Pages deployment, then refresh your site (hard refresh if cached).
+
+## Updated links
+
+- Email: abubakars1861@gmail.com
+- Google Scholar: https://scholar.google.com/citations?user=z6PLL5YAAAAJ&hl=en&authuser=1
+- ORCID: https://orcid.org/0009-0002-5664-2486
+- LinkedIn: https://www.linkedin.com/in/md-abubakar-siddique-geb/
+- GitHub: https://github.com/abubakars1861
+
+## Next improvements
+
+- Upload a current CV PDF as `assets/cv.pdf`, then replace the email-request button with a download button.
+- Verify full publication citations and add missing publications.
+- Add a headshot and project figures with permission.
+
+The website uses plain HTML, CSS, and JavaScript. All internal asset references are relative, so it works under `/siddique.github.io/`.
